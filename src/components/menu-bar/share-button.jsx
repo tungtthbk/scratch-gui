@@ -42,7 +42,8 @@ ShareButton.propTypes = {
 };
 
 ShareButton.defaultProps = {
-    onClick: () => {}
+    onClick: () => {
+    }
 };
 
 export default ShareButton;

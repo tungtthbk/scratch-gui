@@ -97,6 +97,11 @@ const MenuBarItemTooltip = ({
     id,
     place = 'bottom'
 }) => {
+    return (
+        <React.Fragment>
+            {children}
+        </React.Fragment>
+    );
     if (enable) {
         return (
             <React.Fragment>
@@ -465,6 +470,7 @@ class MenuBar extends React.Component {
                                         >
                                             {this.props.intl.formatMessage(sharedMessages.loadFromComputerTitle)}
                                         </MenuItem>
+                                        321312312312
                                         <SB3Downloader>{(className, downloadProjectCallback) => (
                                             <MenuItem
                                                 className={className}

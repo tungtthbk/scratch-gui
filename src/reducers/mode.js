@@ -34,7 +34,7 @@ const setFullScreen = function (isFullScreen) {
 const setPlayer = function (isPlayerOnly) {
     return {
         type: SET_PLAYER,
-        isPlayerOnly: isPlayerOnly
+        isPlayerOnly: !isPlayerOnly
     };
 };
 
